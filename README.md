@@ -78,13 +78,13 @@ npm start
 ```
 Endpoints
 
-Method,Endpoint,Description
-GET,/api/tasks,Retrieve a list of all tasks
-GET,/api/tasks/:id,Retrieve a specific task by its ID
-POST,/api/tasks,Create a new task
-PUT,/api/tasks/:id,Completely update an existing task
-PATCH,/api/tasks/:id,Partially update an existing task
-DELETE,/api/tasks/:id,Delete a task
+| HTTP Method | Endpoint | Action | Status |
+| :--- | :---: | :---: | ---: |
+| GET | `/api/tasks` | Retrieve all tasks | Active |
+| GET | `/api/tasks/:id` | Retrieve specific tasks | Active |
+| POST | `/api/tasks` | Create a new task | Active |
+| PUT | `/api/tasks/:id` | Update a task | Testing |
+| DELETE | `/api/tasks/:id` | Delete a task | Planned |
 
 
 Example Request Body (POST / PUT / PATCH)
