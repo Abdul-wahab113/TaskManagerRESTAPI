@@ -1,6 +1,6 @@
 const express = require('express');
 const tasksRoutes = require('./routes/tasks_routes');
-const errorHandler = require('./middleware/errorHandler');
+const errorHandler = require('./middlewares/errorHandler');
 require('dotenv').config();
 const app = express();
 
